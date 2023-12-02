@@ -71,7 +71,6 @@ export default function Home() {
         <h2 className="mb-3 text-3xl font-bold text-center">
           Getting Started:
         </h2>
-
         <div className="w-full grid gap-4 grid-cols-1 md:grid-cols-2">
           {tasks.map((task, index) => (
             <div
